@@ -1,0 +1,10 @@
+C:\Users\neril_vewr2ep\OneDrive\Desktop\ZeroHour Debloat\ZeroHourCrossPlay\bin\Release\net6.0\ZeroHourCrossPlay.deps.json
+C:\Users\neril_vewr2ep\OneDrive\Desktop\ZeroHour Debloat\ZeroHourCrossPlay\bin\Release\net6.0\ZeroHourCrossPlay.dll
+C:\Users\neril_vewr2ep\OneDrive\Desktop\ZeroHour Debloat\ZeroHourCrossPlay\bin\Release\net6.0\ZeroHourCrossPlay.pdb
+C:\Users\neril_vewr2ep\OneDrive\Desktop\ZeroHour Debloat\ZeroHourCrossPlay\obj\Release\net6.0\ZeroHourCrossPlay.csproj.AssemblyReference.cache
+C:\Users\neril_vewr2ep\OneDrive\Desktop\ZeroHour Debloat\ZeroHourCrossPlay\obj\Release\net6.0\ZeroHourCrossPlay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\neril_vewr2ep\OneDrive\Desktop\ZeroHour Debloat\ZeroHourCrossPlay\obj\Release\net6.0\ZeroHourCrossPlay.csproj.CoreCompileInputs.cache
+C:\Users\neril_vewr2ep\OneDrive\Desktop\ZeroHour Debloat\ZeroHourCrossPlay\obj\Release\net6.0\ZeroHourCrossPlay.dll
+C:\Users\neril_vewr2ep\OneDrive\Desktop\ZeroHour Debloat\ZeroHourCrossPlay\obj\Release\net6.0\refint\ZeroHourCrossPlay.dll
+C:\Users\neril_vewr2ep\OneDrive\Desktop\ZeroHour Debloat\ZeroHourCrossPlay\obj\Release\net6.0\ZeroHourCrossPlay.pdb
+C:\Users\neril_vewr2ep\OneDrive\Desktop\ZeroHour Debloat\ZeroHourCrossPlay\obj\Release\net6.0\ref\ZeroHourCrossPlay.dll

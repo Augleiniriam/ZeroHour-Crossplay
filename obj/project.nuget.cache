@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "kEub/V2nqOA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\neril_vewr2ep\\OneDrive\\Desktop\\ZeroHour Debloat\\ZeroHourCrossPlay\\ZeroHourCrossPlay.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\neril_vewr2ep\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\neril_vewr2ep\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\neril_vewr2ep\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}

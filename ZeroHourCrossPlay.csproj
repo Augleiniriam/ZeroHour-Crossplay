@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>ZeroHourCrossPlay</AssemblyName>
+    <RootNamespace>ZeroHourCrossPlay</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <!-- Dossier du jeu (surchargeable : dotnet build -p:GamePath=...) -->
+    <GamePath Condition="'$(GamePath)' == ''">C:\Program Files\Epic Games\ZeroHourAvjCY</GamePath>
+    <MLPath>$(GamePath)\MelonLoader</MLPath>
+    <Il2CppPath>$(MLPath)\Il2CppAssemblies</Il2CppPath>
+  </PropertyGroup>
+
+  <ItemDefinitionGroup>
+    <Reference><Private>false</Private></Reference>
+  </ItemDefinitionGroup>
+
+  <ItemGroup>
+    <Reference Include="$(MLPath)\net6\MelonLoader.dll" />
+    <Reference Include="$(MLPath)\net6\0Harmony.dll" />
+    <Reference Include="$(MLPath)\net6\Il2CppInterop.Runtime.dll" />
+    <Reference Include="$(MLPath)\net6\Il2CppInterop.Common.dll" />
+    <Reference Include="$(Il2CppPath)\Il2Cppmscorlib.dll" />
+    <Reference Include="$(Il2CppPath)\Il2CppSystem.dll" />
+    <Reference Include="$(Il2CppPath)\Il2CppPhoton3Unity3D.dll" />
+    <Reference Include="$(Il2CppPath)\Il2CppPhotonRealtime.dll" />
+    <Reference Include="$(Il2CppPath)\Il2CppPhotonUnityNetworking.dll" />
+    <Reference Include="$(Il2CppPath)\UnityEngine.CoreModule.dll" />
+    <Reference Include="$(Il2CppPath)\UnityEngine.IMGUIModule.dll" />
+    <Reference Include="$(Il2CppPath)\UnityEngine.InputLegacyModule.dll" />
+    <Reference Include="$(Il2CppPath)\UnityEngine.TextRenderingModule.dll" />
+  </ItemGroup>
+
+  <!-- Copie automatique dans Mods/ après compilation -->
+  <Target Name="CopyToMods" AfterTargets="Build" Condition="Exists('$(GamePath)\Mods') Or Exists('$(MLPath)')">
+    <MakeDir Directories="$(GamePath)\Mods" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(GamePath)\Mods" ContinueOnError="true" />
+  </Target>
+
+</Project>
